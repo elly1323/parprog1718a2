@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <time.h>
 #include <pthread.h>
 
 #define MESSAGES 20
 #define numOfThreads 4
-#define N 1000
+#define N 1000000
 #define CUTOFF 10
 
 
